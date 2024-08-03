@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+
 *{
     font-family: "Inter", sans-serif;
     
@@ -95,6 +96,8 @@ nav > ul {
 }
 
 .header_title{
+
+    
   
     font-size: 78px;
     font-style: normal;
@@ -102,14 +105,30 @@ nav > ul {
 
 }
 
-.header_title_shape{
+.header_title_shape {
+
+    font-family: Miama;
+font-size: 78px;
+font-style: italic;
+font-weight: 400;
+line-height: 93.6px;
+text-align: left;
+
+    /*font-size: 78px;/*
+    /*font-style: italic; /* Make text italic */
+    /*font-weight: 400;
+    font-family: "Miama", sans-serif;*/ /* Apply the Miama font */
+}
+
+
+/*.header_title_shape{
     
  
    font-size: 78px;
    font-style: normal;
    font-weight: 400;
 
-}
+}*/
 
 .btn2{
     padding: 16px 40px;
@@ -118,13 +137,21 @@ nav > ul {
     border: none;
     color:#FFF;
 }
-.btn3{
-
+.btn3 {
+        padding: 16px 40px;
+        border-radius: 42px;
+        border: 2px solid #FFF; /* White border */
+        background: #000; /* Black background */
+        color: #FFF; /* White text color for contrast */
+        font-size: 18px; /* Optional: Adjust font size if needed */
+        font-weight: 600; /* Optional: Adjust font weight if needed */
+}
+/*.btn3{    
    padding: 16px 40px;
    border-radius: 42px;
    border: none;
     
-}
+}*/
 
 .header_content{
     display: flex;
@@ -144,6 +171,12 @@ nav > ul {
     justify-content: space-evenly;
     color: #FFF;
 }
+.image1 p {
+    white-space: pre-line; /* Preserve line breaks and wrap text */
+    text-align: center; /* Center the text if needed */
+    margin: 0; /* Remove default margins */
+    font-size: 12px; /* Adjust the font size as needed */
+}
 
 .img{
     border-radius: 50%;
@@ -157,7 +190,13 @@ nav > ul {
 .training_title{
     color: #FFF;
 }
-.second_banner{
+
+
+
+
+
+
+/*.second_banner{
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
@@ -167,10 +206,62 @@ nav > ul {
     border-radius: 18px;
 
     
+}*/
+
+
+.second_banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    padding: 20px 40px;
+    background-color: #222;
+    margin-top: 100px;
+    gap: 20px; /* Adjust the gap between the content and image */
+    border-radius: 18px;
+}
+
+.image2 {
+    width: 500px; /* Set a fixed width for the square */
+    height: 300px; /* Set the same height for the square */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
+    border-radius: 18px; /* Optional: add rounded corners */
 }
 
 
-.second_banner img{
+
+.banner_text {
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0; /* Remove default margins */
+}
+
+
+.second_banner p {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6; /* Increase line-height for better readability */
+    margin: 0; /* Remove default margins */
+}
+
+
+
+
+
+
+
+
+
+/*.second_banner img{
     border-radius: 18px;
     max-width: 100%;
     height: 100%;
@@ -192,15 +283,28 @@ font-weight: 900;
     font-weight: 400;
 
 letter-spacing: 0.3px;
-}
+}*/
 
-.btn4{
+/*.btn4{
     padding: 16px 40px;
     border-radius: 42px;
     background: #E6533C;
     border: none;
     color: #FFF;
+}*/
+
+
+.btn4 {
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: #E6533C;
+    border: none;
+    color: #FFF;
+    position: relative; /* Enable positioning relative to its normal position */
+    top: 20px; /* Move the button 2px down */
 }
+
+
 .training_title{
     margin-top: 100px;
 }
