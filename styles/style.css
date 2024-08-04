@@ -331,15 +331,43 @@ letter-spacing: 0.3px;
 }
 .BMI_Chart{
        color: #FFF;
+       font-size: 25px;
 }
-table{
+
+
+table {
+    text-align: center;
+    border-collapse: collapse; /* Ensure border-radius works */
+    margin: 20px 0;
+    font-size: 1em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border: .5px solid #ddd; /* Add a 5px solid border */
+    border-radius: 5px; /* Rounded corners for the table */
+    overflow: hidden; /* Ensure rounded corners work correctly */
+  }
+  
+  th {
+    padding: 12px; /* Adjust padding as needed */
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  td{
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ddd;
+    font-size: 13px;
+    text-align: left;
+    padding: 10px;
+  }
+
+/*table{
   text-align: center;
   border-collapse: collapse;
   margin: 20px 0;
   font-size: 1em;
   min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
+}*/
 .Calculator_title{
     color: #FFF;
 }
@@ -351,10 +379,11 @@ table{
 .BMI_title{
     margin-top: 88px;
     color: #FFF;
-    padding-left: 200px;
+    padding-left: 350px;
 }
 .BMI_title p{
     color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 70px;
 }
 .BMI_CALCULATOR{
     display: flex;
