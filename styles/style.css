@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-
 *{
     font-family: "Inter", sans-serif;
     
@@ -113,22 +111,8 @@ font-style: italic;
 font-weight: 400;
 line-height: 93.6px;
 text-align: left;
-
-    /*font-size: 78px;/*
-    /*font-style: italic; /* Make text italic */
-    /*font-weight: 400;
-    font-family: "Miama", sans-serif;*/ /* Apply the Miama font */
 }
 
-
-/*.header_title_shape{
-    
- 
-   font-size: 78px;
-   font-style: normal;
-   font-weight: 400;
-
-}*/
 
 .btn2{
     padding: 16px 40px;
@@ -146,12 +130,6 @@ text-align: left;
         font-size: 18px; /* Optional: Adjust font size if needed */
         font-weight: 600; /* Optional: Adjust font weight if needed */
 }
-/*.btn3{    
-   padding: 16px 40px;
-   border-radius: 42px;
-   border: none;
-    
-}*/
 
 .header_content{
     display: flex;
@@ -191,24 +169,6 @@ text-align: left;
     color: #FFF;
 }
 
-
-
-
-
-
-/*.second_banner{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 40px;
-    background-color:  #222;
-    margin-top: 100px;
-    gap: 165px;
-    border-radius: 18px;
-
-    
-}*/
-
-
 .second_banner {
     display: flex;
     justify-content: space-between;
@@ -233,8 +193,6 @@ text-align: left;
     border-radius: 18px; /* Optional: add rounded corners */
 }
 
-
-
 .banner_text {
     color: #FFF;
     font-size: 48px;
@@ -242,7 +200,6 @@ text-align: left;
     font-weight: 900;
     margin: 0; /* Remove default margins */
 }
-
 
 .second_banner p {
     color: rgba(255, 255, 255, 0.50);
@@ -252,47 +209,6 @@ text-align: left;
     line-height: 1.6; /* Increase line-height for better readability */
     margin: 0; /* Remove default margins */
 }
-
-
-
-
-
-
-
-
-
-/*.second_banner img{
-    border-radius: 18px;
-    max-width: 100%;
-    height: 100%;
-    
-}
-
-.banner_text{
-    color: #FFF;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-
-}
-
-.second_banner p{
-    color: rgba(255, 255, 255, 0.50);
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-
-letter-spacing: 0.3px;
-}*/
-
-/*.btn4{
-    padding: 16px 40px;
-    border-radius: 42px;
-    background: #E6533C;
-    border: none;
-    color: #FFF;
-}*/
-
 
 .btn4 {
     padding: 16px 40px;
@@ -360,52 +276,97 @@ table {
     padding: 10px;
   }
 
-/*table{
-  text-align: center;
-  border-collapse: collapse;
-  margin: 20px 0;
-  font-size: 1em;
-  min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}*/
 .Calculator_title{
     color: #FFF;
+    font-size: 25px;
 }
-.input_field{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 12px;
+
+p{
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 12px;
 }
-.BMI_title{
-    margin-top: 88px;
-    color: #FFF;
-    padding-left: 350px;
+
+
+.BMI_title {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 320px;
+    /*text-align: center;
+    margin-bottom: 20px;*/
 }
-.BMI_title p{
-    color: rgba(255, 255, 255, 0.5);
-    margin-bottom: 70px;
+
+.big {
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
 }
-.BMI_CALCULATOR{
+
+.BMI_CONTAINER {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+.BMI_Chart, .Calculator_title {
+    width: 45%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #333;
+}
+.input_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-inputs {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
-    padding: 40px 190px ;
-    
 }
-.Calculator_title > .input_field  > input{
-    padding: 12px 20px;
-    
-    border-radius: 10px;
-    
+
+.input_field input, .input_field select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+    color:rgba(255, 255, 255, 0.181);
 }
+
+.row-inputs input {
+    flex: 1;
+    margin-right: 10px;
+}
+.row-inputs input:last-child {
+    margin-right: 0;
+}
+
 .btn5{
     color: white;
     margin-top: 34px;
-    padding: 16px 40px;
+    padding: 16px 70px;
     border-radius: 42px;
     background: #E6533C;
     border: none;
 }
+
+
+
+
+
+
+
 .Team_class{
     margin-top: 90px;
     text-align: center;
@@ -432,6 +393,9 @@ table {
     border-radius: 10px;  
     
 }  
+
+
+
 
 footer{
     color: #FFF;
