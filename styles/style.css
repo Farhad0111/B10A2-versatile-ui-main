@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     font-family: "Inter", sans-serif;
     
@@ -23,7 +23,7 @@ nav{
     
     display: flex;
     justify-content: space-between;
-   
+
    
 }
 .video_number{
@@ -124,11 +124,11 @@ text-align: left;
 .btn3 {
         padding: 16px 40px;
         border-radius: 42px;
-        border: 2px solid #FFF; /* White border */
-        background: #000; /* Black background */
-        color: #FFF; /* White text color for contrast */
-        font-size: 18px; /* Optional: Adjust font size if needed */
-        font-weight: 600; /* Optional: Adjust font weight if needed */
+        border: 2px solid #FFF; 
+        background: #000; 
+        color: #FFF; 
+        font-size: 18px;
+        font-weight: 600;
 }
 
 .header_content{
@@ -150,10 +150,10 @@ text-align: left;
     color: #FFF;
 }
 .image1 p {
-    white-space: pre-line; /* Preserve line breaks and wrap text */
-    text-align: center; /* Center the text if needed */
-    margin: 0; /* Remove default margins */
-    font-size: 12px; /* Adjust the font size as needed */
+    white-space: pre-line; 
+    text-align: center; 
+    margin: 0;
+    font-size: 12px; 
 }
 
 .img{
@@ -172,25 +172,25 @@ text-align: left;
 .second_banner {
     display: flex;
     justify-content: space-between;
-    align-items: center; /* Align items vertically */
+    align-items: center;
     padding: 20px 40px;
     background-color: #222;
     margin-top: 100px;
-    gap: 20px; /* Adjust the gap between the content and image */
+    gap: 20px; 
     border-radius: 18px;
 }
 
 .image2 {
-    width: 500px; /* Set a fixed width for the square */
-    height: 300px; /* Set the same height for the square */
-    overflow: hidden; /* Hide any overflow content */
+    width: 500px; 
+    height: 300px; 
+    overflow: hidden; 
 }
 
 .image2 img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the image covers the area while maintaining aspect ratio */
-    border-radius: 18px; /* Optional: add rounded corners */
+    object-fit: cover;
+    border-radius: 18px;
 }
 
 .banner_text {
@@ -198,7 +198,7 @@ text-align: left;
     font-size: 48px;
     font-style: normal;
     font-weight: 900;
-    margin: 0; /* Remove default margins */
+    margin: 0;
 }
 
 .second_banner p {
@@ -206,8 +206,8 @@ text-align: left;
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.6; /* Increase line-height for better readability */
-    margin: 0; /* Remove default margins */
+    line-height: 1.6;
+    margin: 0; 
 }
 
 .btn4 {
@@ -216,8 +216,8 @@ text-align: left;
     background: #E6533C;
     border: none;
     color: #FFF;
-    position: relative; /* Enable positioning relative to its normal position */
-    top: 20px; /* Move the button 2px down */
+    position: relative; 
+    top: 20px; 
 }
 
 
@@ -253,18 +253,18 @@ text-align: left;
 
 table {
     text-align: center;
-    border-collapse: collapse; /* Ensure border-radius works */
+    border-collapse: collapse;
     margin: 20px 0;
     font-size: 1em;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border: .5px solid #ddd; /* Add a 5px solid border */
-    border-radius: 5px; /* Rounded corners for the table */
-    overflow: hidden; /* Ensure rounded corners work correctly */
+    border: .5px solid #ddd; 
+    border-radius: 5px; 
+    overflow: hidden; 
   }
   
   th {
-    padding: 12px; /* Adjust padding as needed */
+    padding: 12px; 
     border: 1px solid #ddd;
     text-align: left;
   }
@@ -291,8 +291,7 @@ p{
     font-size: 12px;
     text-align: left;
     padding-left: 320px;
-    /*text-align: center;
-    margin-bottom: 20px;*/
+    
 }
 
 .big {
@@ -390,7 +389,7 @@ th {
 .team_member {
     position: relative;
     width: 100%;
-    height: 300px; /* Set a fixed height for the images */
+    height: 300px; 
 }
 
 .team_image img {
@@ -409,10 +408,8 @@ th {
     font-size: 18px;
     font-weight: bold;
     color: white;
-    /*background-color: rgba(0, 0, 0, 0.6);*/
     padding: 5px 10px;
     border-radius: 5px;
-/*    width: calc(100% - 20px);*/
     text-align: center;
 }
 
@@ -425,10 +422,8 @@ th {
     font-size: 9px;
     font-weight: bold;
     color: white;
-    /*background-color: rgba(0, 0, 0, 0.6);*/
     padding: 5px 10px;
     border-radius: 5px;
-/*    width: calc(100% - 20px);*/
     text-align: left;
 }
 
@@ -443,7 +438,7 @@ th {
 
 
 footer {
-    background-color: #333; /* or any color you prefer */
+    background-color: #333; 
     color: #FFF;
     padding: 20px;
 }
@@ -483,3 +478,369 @@ footer {
     color: rgba(255, 255, 255, 0.30);
     margin-top: 20px;
 }
+*/
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 3.75rem 11.875rem;
+}
+
+main {
+    padding: 4.75rem 11.875rem;
+}
+
+.BMI_CONTAINER {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.BMI_Chart, .Calculator_title {
+    width: 45%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+}
+
+input, select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+    color: rgba(255, 255, 255, 0.181);
+}
+
+.btn5 {
+    color: white;
+    margin-top: 34px;
+    padding: 16px 70px;
+    border-radius: 42px;
+    background: #E6533C;
+    border: none;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > h3 {
+    color: #E6533C;
+    font-size: 2.75rem;
+    font-style: italic;
+    font-weight: 800;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 47px;
+    align-items: center;
+    color: #FFF;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5px 10px;
+    border-radius: 40px;
+}
+
+.btn1 {
+    padding: 8px 20px;
+    border-radius: 3rem;
+    background: #E6533C;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Header */
+.header_title {
+    font-size: 78px;
+    color: #FFF;
+    font-weight: 900;
+}
+
+.header_title_shape {
+    font-family: Miama;
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 400;
+    color: #FFF;
+}
+
+.header_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.header_content img {
+    max-width: 100%;
+}
+
+/* Buttons */
+.btn2, .btn3, .btn4 {
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: none;
+    color: #FFF;
+    font-weight: 600;
+}
+
+.btn2 {
+    background: #E6533C;
+}
+
+.btn3 {
+    background: #000;
+    border: 2px solid #FFF;
+}
+
+.btn4 {
+    background: #E6533C;
+    position: relative;
+    top: 20px;
+}
+
+/* Main section */
+.main_title, .training_title, .BMI_title {
+    text-align: center;
+    color: #FFF;
+}
+
+.image {
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFF;
+}
+
+.image1 p {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 12px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.training_title p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.Training_exercises {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.Training_exercises img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Team section */
+.Team_class {
+    margin-top: 90px;
+    text-align: center;
+    color: #FFF;
+}
+
+.team_image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.team_member {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.team_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.team_name, .small {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+.team_name {
+    bottom: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.small {
+    bottom: 20px;
+    font-size: 9px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_section {
+    margin: 0 15px;
+}
+
+.footer_Title {
+    font-size: 24px;
+}
+
+.footer_section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer_section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_section li {
+    color: rgba(255, 255, 255, 0.10);
+    margin-bottom: 8px;
+}
+
+.footer_rights {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.30);
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    header, main {
+        padding: 2rem;
+    }
+
+    .header_content {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .header_content div:nth-child(2) {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header, main {
+        padding: 1rem;
+    }
+
+    .header_title {
+        font-size: 48px;
+    }
+
+    .header_title_shape {
+        font-size: 48px;
+    }
+
+    .btn2, .btn3, .btn4 {
+        padding: 12px 30px;
+    }
+
+    .image {
+        flex-direction: column;
+    }
+
+    .Training_exercises {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team_image {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Team_class {
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_title {
+        font-size: 36px;
+    }
+
+    .header_title_shape {
+        font-size: 36px;
+    }
+
+    .btn2, .btn3, .btn4 {
+        padding: 10px 20px;
+    }
+
+    .image {
+        flex-direction: column;
+    }
+
+    .Training_exercises {
+        grid-template-columns: 1fr;
+    }
+
+    .team_image {
+        grid-template-columns: 1fr;
+    }
+
+    .footer_container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_section {
+        margin-bottom: 20px;
+    }
+}
+
